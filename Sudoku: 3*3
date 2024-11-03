@@ -45,7 +45,7 @@ user_input = input("Enter your solution: ")
 
 # Convert user input into a list of lists
 try:
-    user_solution = eval(user_input)  # Caution: eval can be unsafe with untrusted input
+    user_solution = eval(user_input)  
 except:
     print("Invalid format. Please try again.")
 
