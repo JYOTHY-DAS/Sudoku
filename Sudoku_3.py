@@ -37,8 +37,7 @@ print_grid(puzzle)
 
 # Format for answering:
 print("Enter your solution in the following format:")
-print("[[row1_col1, row1_col2, row1_col3], [row2_col1, row2_col2, row2_col3], [row3_col1, row3_col2, row3_col3]]")
-print("Example answer: [[1, 2, 3], [3, 1, 2], [2, 3, 1]]")
+print("Example answer: [[x11, x12, x13], [x21, x22, x23], [x31, x32, x33]]")
 
 # Get user input for their solution
 user_input = input("Enter your solution: ")
